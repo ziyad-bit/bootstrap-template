@@ -1,0 +1,119 @@
+/* upper bar*/
+
+.upper-bar{
+    background-color: rgb(0, 174, 255);
+    color           : white;
+    padding         : 5px;
+}
+
+.right-upper-bar{
+    text-align: right;
+}
+
+.navbar-brand span:last-child{
+    color: crimson;
+
+}
+
+.navbar-brand span{
+    font-weight: bold;
+    font-size  : 40px;
+}
+
+.nav-link{
+    margin-left: 15px;
+    font-weight: 500;
+}
+
+.slider{
+    background-color: #eee;
+}
+
+
+
+
+.carousel-inner h1{
+    position         : absolute;
+    color            : blanchedalmond;
+    z-index          : 3;
+    width            : 300px;
+    top              : 50%;
+    right            : 50%;
+    left             : 50%;
+    transform        : translate(-50%,-50%);
+    -webkit-transform: translate(-50%,-50%);
+    -moz-transform   : translate(-50%,-50%);
+    -ms-transform    : translate(-50%,-50%);
+    -o-transform     : translate(-50%,-50%);
+}
+
+.overlay{
+    position        : absolute;
+    height          : 100%;
+    width           : 100%;
+    background-color: rgba(0, 0, 0, 0.6);
+    left            : 0;
+    top             : 0;
+    z-index         : 2;
+}
+
+.carousel-item{
+    background-size: cover;
+}
+
+.carousel-one{
+    background-image: url('../img/download.jpg');
+}
+
+.carousel-two{
+    background-image: url('../img/download (2).jpg');
+}
+
+.carousel-three{
+    background-image: url('../img/download (1).jpg');
+}
+
+/* features */
+.features i{
+    margin-top      : 20px;
+    background-color: rgb(220, 50, 20);
+    color           : white;
+    padding         : 12px;
+}
+
+.featured-work{
+    margin-top   : 20px;
+    margin-bottom: 20px;
+}
+
+.featured-work li{
+    text-transform    : uppercase;
+    border            : 1px solid black ;
+    margin-left       : 5px;
+    margin-bottom     : 10px;
+    font-weight       : 500;
+    padding           : 10px;
+    transition        : background-color .3s ease-in-out;
+    -webkit-transition: background-color .3s ease-in-out;
+    -moz-transition   : background-color .3s ease-in-out;
+    -ms-transition    : background-color .3s ease-in-out;
+    -o-transition     : background-color .3s ease-in-out;
+}
+
+.featured-work li:hover{
+    cursor          : pointer;
+    background-color: rgb(220, 50, 20);
+}
+
+.active{
+    background-color: rgb(220, 50, 20);;
+}
+
+.images img{
+    transition: opacity .3s ease-in-out;
+    -webkit-transition: opacity .3s ease-in-out;
+    -moz-transition: opacity .3s ease-in-out;
+    -ms-transition: opacity .3s ease-in-out;
+    -o-transition: opacity .3s ease-in-out;
+}
+
