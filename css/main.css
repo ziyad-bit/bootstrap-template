@@ -1,5 +1,8 @@
-/* upper bar*/
+:root{
+    --main_color:rgb(220, 50, 20);
+}
 
+/* upper bar*/
 .upper-bar{
     background-color: rgb(0, 174, 255);
     color           : white;
@@ -9,6 +12,8 @@
     margin: 10px;
 }
 
+
+/* navbar */
 .navbar-brand span:last-child{
     color: crimson;
 
@@ -28,6 +33,7 @@
     background-color: #eee;
 }
 
+/* carousel */
 .carousel-inner h1{
     position         : absolute;
     color            : blanchedalmond;
@@ -72,7 +78,7 @@
 /* features */
 .features i{
     margin-top      : 20px;
-    background-color: rgb(220, 50, 20);
+    background-color: var(--main_color);
     color           : white;
     padding         : 12px;
 }
@@ -98,20 +104,24 @@
 
 .featured-work li:hover{
     cursor          : pointer;
-    background-color: rgb(220, 50, 20);
+    background-color: var(--main_color);
 }
 
 .active{
-    background-color: rgb(220, 50, 20);;
+    background-color:var(--main_color) ;
 }
 
 .images img{
-    width: 20%;
-    transition: opacity .3s ease-in-out;
+    width             : 20%;
+    transition        : opacity .3s ease-in-out;
     -webkit-transition: opacity .3s ease-in-out;
-    -moz-transition: opacity .3s ease-in-out;
-    -ms-transition: opacity .3s ease-in-out;
-    -o-transition: opacity .3s ease-in-out;
+    -moz-transition   : opacity .3s ease-in-out;
+    -ms-transition    : opacity .3s ease-in-out;
+    -o-transition     : opacity .3s ease-in-out;
+}
+
+.images{
+    margin: 0;
 }
 
 
