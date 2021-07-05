@@ -3,11 +3,10 @@
 .upper-bar{
     background-color: rgb(0, 174, 255);
     color           : white;
-    padding         : 5px;
 }
 
-.right-upper-bar{
-    text-align: right;
+.upper-bar .info{
+    margin: 10px;
 }
 
 .navbar-brand span:last-child{
@@ -28,9 +27,6 @@
 .slider{
     background-color: #eee;
 }
-
-
-
 
 .carousel-inner h1{
     position         : absolute;
@@ -62,15 +58,15 @@
 }
 
 .carousel-one{
-    background-image: url('../img/download.jpg');
+    background-image: url('../img/test.jpg');
 }
 
 .carousel-two{
-    background-image: url('../img/download (2).jpg');
+    background-image: url('../img/test2.jpg');
 }
 
 .carousel-three{
-    background-image: url('../img/download (1).jpg');
+    background-image: url('../img/test3.jpg');
 }
 
 /* features */
@@ -110,10 +106,13 @@
 }
 
 .images img{
+    width: 20%;
     transition: opacity .3s ease-in-out;
     -webkit-transition: opacity .3s ease-in-out;
     -moz-transition: opacity .3s ease-in-out;
     -ms-transition: opacity .3s ease-in-out;
     -o-transition: opacity .3s ease-in-out;
 }
+
+
 
