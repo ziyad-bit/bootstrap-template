@@ -29,6 +29,10 @@
     font-weight: 500;
 }
 
+.nav-link:hover{
+   cursor: pointer;
+}
+
 .slider{
     background-color: #eee;
 }
@@ -64,15 +68,15 @@
 }
 
 .carousel-one{
-    background-image: url('../img/test.jpg');
+    background-image: url('../img/test4.jpg');
 }
 
 .carousel-two{
-    background-image: url('../img/test2.jpg');
+    background-image: url('../img/test5.jpg');
 }
 
 .carousel-three{
-    background-image: url('../img/test3.jpg');
+    background-image: url('../img/test6.jpg');
 }
 
 /* features */
@@ -88,6 +92,25 @@
     margin-bottom: 20px;
 }
 
+.images img{
+    margin-top: 5px;
+}
+
+/* about */
+.about{
+    background-color: #eee;
+}
+
+.about img{
+    width: 100%;
+}
+
+.about h1{
+    color: var(--main_color);
+}
+
+
+/* featured work */
 .featured-work li{
     text-transform    : uppercase;
     border            : 1px solid black ;
@@ -107,6 +130,10 @@
     background-color: var(--main_color);
 }
 
+.featured-work h1{
+    color: var(--main_color);
+}
+
 .active{
     background-color:var(--main_color) ;
 }
@@ -124,5 +151,25 @@
     margin: 0;
 }
 
+/* pricing */
+.pricing{
+    background-color: #eee;
+}
 
+.pricing img{
+    width: 100%;
+    margin-top: 5px;
+}
+
+.pricing h1{
+    color: var(--main_color);
+}
+
+.pricing .btn{
+    margin-bottom: 5px;
+}
+
+.contact h1{
+    color: var(--main_color);
+}
 
